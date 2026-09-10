@@ -37,7 +37,7 @@ def has_clusters(circles):
 
 #Calls the function 
 result = has_clusters(circle_size)
-print("The circles touch each other." if result else "The circles do not touch each other.")
+print("True. The circles touch each other, there is a cluster." if result else "False. The circles do not touch each other, there is not cluster.")
 
 
 
